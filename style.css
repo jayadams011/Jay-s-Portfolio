@@ -27,9 +27,11 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("https://www.w3schools.com/w3css/img_parallax2.jpg");
+    background-image: url("images/marbleDane.jpg");
     min-height: 400px;
 }
+
+/*https://www.w3schools.com/w3css/img_parallax2.jpg*/
 
 /* Third image (Contact) */
 .bgimg-3 {
@@ -94,11 +96,11 @@ i.fa {
   padding-top: .2em;
   padding-left: .5em;
   padding-right: .5em;
-  taransition: color 1s;
+  transition: color 1s;
 }
 
-.fa-fire:hover {
-  color: #4a4;
+.fa-linkedin:hover {
+  color: #4af;
 }
 
 .fa-facebook:hover {
