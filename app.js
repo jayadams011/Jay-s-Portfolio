@@ -2,7 +2,7 @@
 // Smooth Scroll on anchor links
 (function() {
 
-    'use strict';
+    
 
    // Feature Test
    if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
