@@ -42,16 +42,11 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-#googleMap {
-    width: 100%;
-    float: right;
-    
 
-}
 
 /* Turn off parallax scrolling for tablets and mobiles */
 @media only screen and (max-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, googleMap{
         background-attachment: scroll;
     }
 }
@@ -90,6 +85,9 @@ body, html {
 .w3-half > a {
   text-decoration: none;
 }
+input:focus {
+    outline-color: #ccc;
+   }
 
 i.fa {
   padding-top: .2em;
@@ -111,3 +109,4 @@ i.fa {
 }
 
 #profile { vertical-align: middle; }
+
